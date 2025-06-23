@@ -5,3 +5,8 @@ MathOperations = (a, b) => {
     console.log("Division", (a / b));
 };
 MathOperations(1, 2);
+
+onlyAdd = (a, b) => {
+    console.log("Addition", (a + b));
+};
+onlyAdd(1, 2);
